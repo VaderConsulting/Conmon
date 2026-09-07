@@ -1,6 +1,6 @@
 # Conmon
 
-VB6 working copy of `Conmon` from Dave Robinson's OneDrive Historical Dev `VB` folder. Project title: ConMon. Output: `ConMon.exe`.
+VB6 Connection Monitor (`ConMon.exe`) that polls `GetIfTable` (iphlpapi) once a second and shows LAN vs RAS link speed plus inbound/outbound throughput on a small fixed form with connected/disconnected icons. Open `Conmon.vbp` in the VB6 IDE.
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
@@ -8,7 +8,7 @@ VB6 working copy of `Conmon` from Dave Robinson's OneDrive Historical Dev `VB` f
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `ConMon` (`Conmon.vbp`) | VB6 | WinForms exe | ConMon |
+| `ConMon` (`Conmon.vbp`) | VB6 | WinForms exe | LAN/RAS connection throughput monitor |
 
 ## How to open
 
